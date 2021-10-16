@@ -1,8 +1,6 @@
 # jsdom-add-files
 
-Adds local files to a HTML file input in jsdom and fires the `change`.
-
-Inspired by jsdom ticket [#1272](https://github.com/jsdom/jsdom/issues/1272)
+Adds local files to a HTML file input in jsdom and fires the `change` event. Inspired by jsdom ticket [#1272](https://github.com/jsdom/jsdom/issues/1272)
 
 ## Usage
 
