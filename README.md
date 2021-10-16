@@ -19,7 +19,8 @@ var fileInput = document.querySelector('input[type="file"]');
 // add files (automatically fires onchange event)
 jsdomAddFiles(fileInput, [
     path.join(__dirname, 'file1.jpg'),
-    path.join(__dirname, 'file2.jpp')
+    path.join(__dirname, 'file2.jpg'),
+    path.join(__dirname, 'file3.png')
 ]);
 ```
 
