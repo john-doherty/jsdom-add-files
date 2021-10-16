@@ -10,7 +10,7 @@ var jsdomAddFiles = require('jsdom-add-files');
 // get file input
 var fileInput = document.querySelector('input[type="file"]');
 
-// add files
+// add files (automatically fires onchange event)
 jsdomAddFiles(fileInput, [
     path.join(__dirname, 'file1.jpg'),
     path.join(__dirname, 'file2.jpp')
