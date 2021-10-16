@@ -11,8 +11,8 @@ npm install --save jsdom-add-files
 ## Usage
 
 ```js
-var jsdomAddFiles = require('jsdom-add-files');
 var path = require('path');
+var jsdomAddFiles = require('jsdom-add-files');
 
 // get file input
 var fileInput = document.querySelector('input[type="file"]');
