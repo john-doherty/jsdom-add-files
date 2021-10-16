@@ -1,2 +1,32 @@
 # jsdom-add-files
-An easy way to add files to HTML file inputs in jsdom
+
+Adds local files to a HTML file input in jsdom and fires the `change`.
+
+Inspired by jsdom ticket [#1272](https://github.com/jsdom/jsdom/issues/1272)
+
+## Usage
+
+```js
+var jsdomAddFiles = require('jsdom-add-files');
+
+// get file input
+var fileInput = document.querySelector('input[type="file"]');
+
+// add files
+jsdomAddFiles(fileInput, [
+    path.join(__dirname, 'file1.jpg'),
+    path.join(__dirname, 'file2.jpp')
+]);
+```
+
+## Star the repo
+
+Please star the repo if you find this useful as it helps me priorities open source fixes
+
+## History
+
+For change-log, check [releases](https://github.com/john-doherty/jsdom-add-files/releases).
+
+## License
+
+Licensed under [MIT License](LICENSE) &copy; [John Doherty](https://twitter.com/mrjohndoherty)
