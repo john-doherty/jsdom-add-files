@@ -1,6 +1,6 @@
 {
   "name": "jsdom-add-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An easy way to add files to HTML file inputs in jsdom",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/john-doherty/jsdom-add-files#readme",
   "dependencies": {
-    "jsdom": "^18.0.0",
-    "mime": "^2.5.2"
+    "jsdom": "^10.1.0",
+    "mime-types": "^2.1.33"
   }
 }
