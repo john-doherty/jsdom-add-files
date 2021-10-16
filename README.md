@@ -2,6 +2,12 @@
 
 Adds local files to a HTML file input in jsdom and fires the `change` event. Inspired by jsdom ticket [#1272](https://github.com/jsdom/jsdom/issues/1272)
 
+## Install
+
+```bash
+npm install --save jsdom-add-files
+```
+
 ## Usage
 
 ```js
